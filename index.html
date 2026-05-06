@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femboy Simulator 💕</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="game">
+    <h1>💕 Femboy Simulator 💕</h1>
+    
+    <div id="character"></div>
+    
+    <div class="stats">
+        <div class="stat">Cuteness: <span id="cuteness">69</span>/100</div>
+        <div class="stat">Femininity: <span id="fem">85</span>/100</div>
+        <div class="stat">Happiness: <span id="happy">92</span>/100</div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="dress('skirt')">🩳 Mini Skirt</button>
+        <button onclick="dress('thigh')">🧦 Thigh Highs</button>
+        <button onclick="dress('maid')">👗 Maid Outfit</button>
+        <button onclick="dress('cat')">🐱 Cat Ears</button>
+    </div>
+
+    <div class="buttons">
+        <button class="action-btn" onclick="action('pose')">✨ Pose</button>
+        <button class="action-btn" onclick="action('twirl')">🌀 Twirl</button>
+        <button class="action-btn" onclick="action('uwu')">UwU</button>
+        <button class="action-btn" onclick="action('dance')">💃 Dance</button>
+    </div>
+
+    <button onclick="giveSnack()" class="snack-btn">🍬 Give Snack</button>
+
+    <div id="log"></div>
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>
